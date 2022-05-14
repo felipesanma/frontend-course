@@ -17,3 +17,16 @@ Para probar los cambios de cada capa, ir a: https://codepen.io/kusillus/pen/PzYd
 
 Es una metodología para nombrar clases dentro del html, de tal forma de poder estructurar y reutilizar el código.
 
+## Flexbox
+
+Ayuda a distribuir el espacio entre los ítems de una *caja* y mejorar las capacidades de **alineación**
+
+## Responsividad
+
+Adaptar el contenido a los distintos dispositivos que usa el usuario.
+
+¿Cómo generar la responsividad?
+
+### Media-query
+
+Conjunto de reglas que definen propiedades específicas para distintos medios.
