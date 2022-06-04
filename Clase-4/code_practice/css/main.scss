@@ -104,16 +104,5 @@ ul.features-list {
         font-size: 1.1em;
         margin-bottom: 1em;
         margin-left: 2em;
-
-        &:before {
-            content: '';
-            left: -.2em;
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background-image: url('../img/bullet.svg');
-            background-size: contain;
-            margin-right: .5em;
-        }
     }
 }
