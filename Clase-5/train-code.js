@@ -33,5 +33,17 @@ for (const value of cadena) {
 }
 
 
+const personas = [
+    { nombre: "Juan", edad: 10 },
+    { nombre: "Pepito", edad: 20 },
+    { nombre: "Rafaaga", edad: 30 },
+    { nombre: "Lupa", edad: 40 },
+]
 
+for (const persona of personas) {
+
+    if (persona.edad > 20) {
+        console.log(persona.nombre)
+    }
+}
 
