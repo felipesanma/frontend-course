@@ -30,3 +30,8 @@ Adaptar el contenido a los distintos dispositivos que usa el usuario.
 ### Media-query
 
 Conjunto de reglas que definen propiedades específicas para distintos medios.
+
+
+
+Clase nº2
+https://softwarelibrechile.cl/ppt-2
