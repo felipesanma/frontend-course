@@ -11,7 +11,7 @@
 */
 
 
-/* primer intento; "WTF nunca me cargó la secuencia hasta del 0 al 1000, moría mi pc"
+/* primer intento; "nunca me cargó la secuencia hasta del 0 al 1000, moría mi pc"
 
 function fibonacci(n) {
   if (n <= 1) {
