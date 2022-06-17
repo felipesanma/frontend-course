@@ -33,7 +33,7 @@ function fibonacci_sequence_to(n, cache) {
     }
     return cache[n] = fibonacci_sequence_to(n - 1, cache) + fibonacci_sequence_to(n - 2, cache);
 }
-// Para usar secuencia hasta 1000, asignar el valor de variable "cota_superior"
+// Para usar secuencia hasta 1000, asignarlo a la variable "cota_superior"
 const cota_superior = 1
 // 1.a. solución
 console.log("Solucion 1.a.")
