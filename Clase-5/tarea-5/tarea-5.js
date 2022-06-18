@@ -14,11 +14,11 @@
 /* primer intento; "nunca me cargó la secuencia hasta del 0 al 1000, moría mi pc"
 
 function fibonacci(n) {
-  if (n <= 1) {
+    if (n <= 1) {
         return n;
-  }
-  
-  return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 */
 
@@ -31,10 +31,11 @@ function fibonacci_sequence_to(n, cache) {
     if (n <= 1) {
         return n;
     }
+
     return cache[n] = fibonacci_sequence_to(n - 1, cache) + fibonacci_sequence_to(n - 2, cache);
 }
 // Para usar secuencia hasta 1000, asignarlo a la variable "cota_superior"
-const cota_superior = 1
+const cota_superior = 100
 // 1.a. solución
 console.log("Solucion 1.a.")
 let fibonacci_seq = {}
