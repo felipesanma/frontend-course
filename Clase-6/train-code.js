@@ -14,3 +14,15 @@ const pokemones = ["Pikachu", "Snake", "Ekans"]
 pokemones.forEach((pokemon, i) => {
     console.log("pokemones[" + i + "] = " + pokemon);
 });
+
+// Te prometo que te quiero mucho en 3 segundos
+
+var myPromise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+        resolve('Te quiero');
+    }, 3000);
+});
+
+myPromise.then(function (value) {
+    console.log(value);
+});
