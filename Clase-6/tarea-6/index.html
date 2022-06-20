@@ -11,12 +11,13 @@
     <link href="./css/main.css" rel="stylesheet" />
 </head>
 
-<body onload="javascript:searchPokemones()">
-    <div data-poke-card class="poke-card">
-        <div data-poke-name class="poke-name"> Pokedex</div>
-        <div data-poke-img-container class="img-container">
-            <img data-poke-img class="poke-img" src="./img/pokedex.png" />
+<body>
+    <div id="container">
+        <div id="poke-container" class="ui cards">
+            <!-- will hold the cards for all the pokemon -->
+            <button id="random-pokemon" class="ui button">Random Pokemons</button>
         </div>
+    </div>
 </body>
 
 </html>

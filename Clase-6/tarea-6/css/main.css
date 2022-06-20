@@ -4,4 +4,26 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+.container {
+  margin: auto;
+}
+
+.poke-container {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.header-container {
+  border-radius: 0px !important;
+}
+
+.header-text {
+  margin: 0 auto;
+}
+
+.random-pokemon {
+  margin: 0 auto;
+}
 /*# sourceMappingURL=main.css.map */
