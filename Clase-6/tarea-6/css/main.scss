@@ -27,3 +27,29 @@ body {
 .random-pokemon {
     margin: 0 auto;
 }
+
+
+.card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.image {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.img {
+    width: 180px;
+    border-radius: 50%;
+}
