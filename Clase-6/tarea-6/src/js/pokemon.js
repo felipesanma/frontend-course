@@ -2,8 +2,8 @@ console.log('Estamos al aire!')
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    let generateBtn = document.querySelector('#random-pokemon');
-    generateBtn.addEventListener('click', renderEverything)
+    let generateRandomBtn = document.querySelector('#random-pokemon');
+    generateRandomBtn.addEventListener('click', renderEverything)
 })
 
 function renderEverything() {

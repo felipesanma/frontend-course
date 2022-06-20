@@ -9,18 +9,12 @@ body {
   margin: auto;
 }
 
-.poke-container {
-  margin: auto;
-  width: 90%;
-  padding: 10px;
-}
-
-.header-container {
-  border-radius: 0px !important;
-}
-
-.header-text {
-  margin: 0 auto;
+.ui-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
 }
 
 .random-pokemon {
@@ -52,5 +46,46 @@ body {
 .img {
   width: 180px;
   border-radius: 50%;
+}
+
+.ui-button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  -webkit-box-shadow: #422800 4px 4px 0 0;
+          box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+.ui-button:hover {
+  background-color: #fff;
+}
+
+.ui-button:active {
+  -webkit-box-shadow: #422800 2px 2px 0 0;
+          box-shadow: #422800 2px 2px 0 0;
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .ui-button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
