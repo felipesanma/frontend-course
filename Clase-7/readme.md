@@ -1,6 +1,6 @@
 # Programación JS
 
-
+Programación orientada a objetos
 
 
 
