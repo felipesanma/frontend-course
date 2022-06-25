@@ -26,3 +26,40 @@ var myPromise = new Promise(function (resolve, reject) {
 myPromise.then(function (value) {
     console.log(value);
 });
+
+
+console.log(Math.ceil(4.64))
+
+var paki = {
+    nombre: "Pakiman",
+    ataque: 101
+};
+paki.ataque = paki.ataque * 2;
+
+console.log(paki.ataque)
+
+function pakiman(vida) {
+    vida = vida + vida;
+    vida++;
+    return vida;
+}
+var vida = 2;
+vida = pakiman(vida);
+
+console.log(vida)
+
+
+var variable;
+if (variable) {
+    console.log("funciona");
+}
+else {
+    console.log("no funciona");
+}
+
+var a = 10;
+var b = "12";
+var c = b + a;
+console.log(c)
+
+console.log(c + 1)
