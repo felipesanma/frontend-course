@@ -12,8 +12,8 @@ body {
 .ui-cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 5px;
 }
 
@@ -34,13 +34,12 @@ body {
 }
 
 .image {
-  position: relative;
   width: 180px;
   margin: 10px auto;
 }
 
 .img {
-  width: 100px;
+  width: 180px;
   border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
