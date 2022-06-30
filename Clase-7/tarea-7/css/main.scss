@@ -13,7 +13,8 @@ body {
 .ui-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 30px;
+
 }
 
 .card {
@@ -31,11 +32,13 @@ body {
 }
 
 .image {
-    width: 180px;
+    width: 100%;
     margin: 10px auto;
+    padding: 5px;
 }
 
 .img {
-    width: 180px;
+    width: 100%;
     border-radius: 50%;
+    padding: 5px;
 }
