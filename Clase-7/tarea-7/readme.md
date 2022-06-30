@@ -14,5 +14,3 @@ con la data necesaria.
 5. Debe inyectar al menos 20 personajes
 
 Opcional: usar bootstrap u otro framework de CSS para darle estilos
-
-secret: https://codepen.io/Sazuru/pen/VwLqgbO
