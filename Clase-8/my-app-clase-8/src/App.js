@@ -13,6 +13,7 @@ const App = () => {
   */
   const [contacts, setContacts] = useState([]);
   useEffect(() => {
+    console.log('usando useEffect solo una vez');
     fetch("https://randomuser.me/api/?results=4")
       .then(response => response.json())
       .then(data => {
