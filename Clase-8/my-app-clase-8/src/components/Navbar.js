@@ -1,8 +1,7 @@
 import React from 'react';
-import {
-    Bars, Nav, NavBtn,
-    NavBtnLink, NavLink, NavMenu
-} from './NavbarElements';
+import { FaBars } from 'react-icons/fa';
+import { NavLink as Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Navbar = () => {
     return (
@@ -14,30 +13,67 @@ const Navbar = () => {
                     <NavLink to='/about' activeStyle>
                         About
                     </NavLink>
-                    <NavLink to='/events' activeStyle>
-                        Events
-                    </NavLink>
-                    <NavLink to='/annual' activeStyle>
-                        Annual Report
-                    </NavLink>
                     <NavLink to='/team' activeStyle>
                         Teams
                     </NavLink>
-                    <NavLink to='/blogs' activeStyle>
+                    <NavLink to='/blog' activeStyle>
                         Blogs
                     </NavLink>
-                    <NavLink to='/sign-up' activeStyle>
-                        Sign Up
-                    </NavLink>
-                    {/* Second Nav */}
-                    {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
                 </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                </NavBtn>
             </Nav>
         </>
     );
 };
+
+
+export const Nav = styled.nav`
+  background: #63D471;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem calc((100vw - 1000px) / 2);
+  z-index: 12;
+`;
+
+export const NavLink = styled(Link)`
+  color: #808080;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    color: #000000;
+  }
+`;
+
+export const Bars = styled(FaBars)`
+  display: none;
+  color: #808080;
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+`;
+
+export const NavMenu = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+  /* Second Nav */
+  /* margin-right: 24px; */
+  /* Third Nav */
+  /* width: 100vw;
+  white-space: nowrap; */
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 
 export default Navbar;
