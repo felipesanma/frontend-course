@@ -3,7 +3,7 @@ componentes.
 
 
 * a)Componente menú
-* b)Componente slider https://github.com/souldeveloper/codigos_canal/tree/main/slider/src
+* b)Componente slider 
 * b)Componente pilares
 * c)Componente footer
 
